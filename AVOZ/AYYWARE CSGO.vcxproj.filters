@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="INJ\ReflectiveLoader.cpp" />
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="MathFunctions.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MetaInfo.cpp" />
+    <ClCompile Include="NetVarManager.cpp" />
+    <ClCompile Include="NetVars.cpp" />
+    <ClCompile Include="Offsets.cpp" />
+    <ClCompile Include="RenderManager.cpp" />
+    <ClCompile Include="SpoofedConvar.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="UTIL Functions.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="Chams.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAntiAim.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Cheat Source\Cpps\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>Cheat Source\Cpps\Other Things</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Cheat Source\Cpps\Other Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Dumping.cpp">
+      <Filter>Cheat Source\Cpps\Other Things</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="hitmarker.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="LegitBot.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotMarkers.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Visual.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="RageBot.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHacks.cpp">
+      <Filter>Cheat Source\Cpps\Features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\supremehack\AYYWARE CSGO\resource.h" />
+    <ClInclude Include="Proxies.h" />
+    <ClInclude Include="winwindef.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="INJ\ReflectiveDLLInjection.h" />
+    <ClInclude Include="INJ\ReflectiveLoader.h" />
+    <ClInclude Include="MathFunctions.h" />
+    <ClInclude Include="MetaInfo.h" />
+    <ClInclude Include="MiscClasses.h" />
+    <ClInclude Include="MiscDefinitions.h" />
+    <ClInclude Include="NetVars.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="RenderManager.h" />
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="UTIL Functions.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="AntiAntiAim.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiLeak.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClient.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRecvProps.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Cheat Source\Headers\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLMain.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="Dumping.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>Cheat Source\Headers\Other Things</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hitmarker.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitBot.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHacks.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="RageBot.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Skins.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotMarkers.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Cheat Source\Headers\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Cheat Source\Headers\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Cheat Source\Headers\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Cheat Source\Headers\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Cheat Source\Headers\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="hooks.backup" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Cheat Source">
+      <UniqueIdentifier>{724be3e2-cb27-4b28-a7a3-939e3b502ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Source\Headers">
+      <UniqueIdentifier>{75998ae6-d842-4941-a3b8-80d19389dff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Source\Cpps">
+      <UniqueIdentifier>{e0c6728e-f69f-4ca0-a67b-a7e483c21449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Source\Cpps\Features">
+      <UniqueIdentifier>{15ed95d0-8ff4-4cfc-9c0b-cb1025f4de21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Source\Cpps\Menu">
+      <UniqueIdentifier>{c83c5482-9eed-4635-9bfc-a43ffc760f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Source\Headers\Features">
+      <UniqueIdentifier>{23e6513b-06d7-4c02-8e77-004d259db4ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Source\Headers\Menu">
+      <UniqueIdentifier>{07f415fa-696b-4342-8a6f-abbd06ba1323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Source\Headers\Other Things">
+      <UniqueIdentifier>{9b8c6dec-4964-46f6-a1bd-e5f431ea470b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat Source\Cpps\Other Things">
+      <UniqueIdentifier>{76403bac-5fbc-4c78-9d39-38d771522b8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
